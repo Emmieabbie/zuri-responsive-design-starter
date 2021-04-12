@@ -19,6 +19,9 @@ div.logo {
     font-size: 1.5rem;
     color: #bcc3c7;
 }
+.icon{
+    display: none;
+}
 
 ul.nav-links {
     display: flex;
@@ -44,13 +47,9 @@ ul li a:hover {
     padding: 0.5rem;
 }
 
-div.hero-section {
-    background: #304353;
-    padding: 10rem;
-}
-
 div.hero-content-heading {
     text-align: center;
+    background: #304353;
 }
 
 div.hero-content-heading h3 {
@@ -75,6 +74,7 @@ div.hero-content-btn {
     justify-content: center;
     align-items: center;
     padding-top: 2rem;
+    background: #304353;
 }
 
 div.hero-content-btn a {
@@ -345,3 +345,83 @@ div.footer h6 {
     font-size: 1rem;
     padding-top: 6rem;
 }
+@media screen and (max-width: 768px) {
+
+    div.logo {
+        font-size: 1.3rem;
+
+    }
+    
+   .nav-links{
+       text-align: right;
+       display: flex;
+       flex-direction: column;
+     }
+
+     ul li{
+         padding: 10%;
+         padding-right: 0rem;
+     }
+
+    div.hero-section {
+        background: #304353;
+        padding: 2rem 10rem;
+        
+    }
+
+    div.hero-content-heading {
+        text-align: center;
+        padding: 0rem 3rem;
+    }
+    
+div.hero-content-heading h3 {
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 200;
+    color: #bcc3c7;}
+
+    div.hero-content-heading p {
+        text-align: center;
+        padding-top: 0.5rem;
+        color: #88949B;
+        font-size: 0.5rem;
+        letter-spacing: 1px;
+        font-weight: 200;
+   
+    }
+    div.hero-content-btn a {
+        background: #E44C65;
+        text-decoration: none;
+        color: #bcc3c7;
+        font-size: 0.7rem;
+       
+    }
+    div.hero-background {
+        background: #f0f0f0;
+        padding: 5rem;
+       
+    }
+
+    div.background p {
+    text-align: center;
+       padding: 0.2rem;
+        font-size: 0.5rem;
+        letter-spacing: 1px;
+    }
+    
+    
+    div.hero-background-pos {
+        display: none;}
+
+        div.snapshot-box-content {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;}
+            div.gallery-img {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                padding-top: 1rem;
+             }
+    }
